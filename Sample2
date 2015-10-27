@@ -1,0 +1,11 @@
+<div class="tab-content">
+        <div id="tab1" class="tab active">
+            <p>Welcome to Hair & Makeup. Here we showcase how hair and makeup can be 
+               beautiful.</p>
+            <p>Contact us and see how we can help you.</p>
+        </div>
+ 
+        <div id="tab2" class="tab">
+            <p>We're all about your beauty.</p>
+            <p>Our team consists of experienced professionals around the nation.</p>
+        </div>
