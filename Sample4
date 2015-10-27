@@ -1,0 +1,98 @@
+/*----- Tabs -----*/
+.tabs {
+    width:50%;
+    display:inline-block;
+	margin:center-left;
+	padding:0em 3.5em;
+}
+ 
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+ 
+    .tab-links li {
+        margin:0px 5px;
+        float:left;
+        list-style:none;
+    }
+ 
+        .tab-links a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            background:#000000;
+            font-size:16px;
+            font-weight:600;
+            color:#fff;
+            transition:all linear 0.15s;
+			text-decoration: none;
+        }
+ 
+        .tab-links a:hover {
+            background:#FF00FF;
+            text-decoration:none;
+        }
+ 
+    li.active a, li.active a:hover {
+        background:#fff;
+        color:#4c4c4c;
+    }
+ 
+    /*----- Content of Tabs -----*/
+    .tab-content {
+        padding:0.5em 0em;
+        border-radius:3px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        font:1.25em "Open Sans Condensed", cursive;
+    }
+ 
+        .tab {
+            display:none;
+        }
+ 
+        .tab.active {
+            display:block;
+        }
+		
+	body {
+    background-image:url('Images/bw.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}	
+
+p {
+  color:#fff;
+}
+
+h1 {
+  top: 200px;
+  left: 0;
+  width: 100%;
+  border: 0px;
+  color:#FFFFFF;
+}
+
+.top-header {
+  width:100%;
+  max-width:960px;
+  font:4em "Open Sans Condensed", cursive;
+  text-shadow:1px 1px 0 rgba(0,0,0,.2);
+  margin:40px auto;
+  text-align:center-left;
+  padding:0em auto;
+}
+
+hr {
+  width:25em;
+  margin:1em 6.78em;
+  float: center-left;
+  color:#fff;
+  align:bottom;
+}
+
+/*This is the CSS that I used to get everything prettied up and aligned. Also, more importantly is getting a custom 
+background photo that fits the screen no matter the window size!*/
