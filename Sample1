@@ -1,0 +1,22 @@
+<script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+	  'fitImagesInViewport' : true
+    })
+  </script>
+  </head>
+
+  <body id="page">
+  <h1 class="top-header">Hair & Makeup</h1>
+  
+  <hr>
+  
+  <div class="tabs">
+    <ul class="tab-links">
+        <li class="active"><a href="#tab1">Home</a></li>
+        <li><a href="#tab2">About</a></li>
+        <li><a href="#tab3">Hair</a></li>
+        <li><a href="#tab4">Makeup</a></li>
+		<li><a href="#tab5">Contact</a></li>
+    </ul>
