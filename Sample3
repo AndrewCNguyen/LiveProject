@@ -1,0 +1,10 @@
+<div id="tab4" class="tab">
+            <p>Makeup is a powerful tool.</p>
+			<p>Accentuate your features and let your beauty shine with the right touch of makeup.</p>
+      <a href="Images/m1.jpg" width="5em" height="auto" data-lightbox="m" rel="lightbox"><img src="Images/m1thumb.jpg"/></a>
+			<a href="Images/m2.jpg" width="5em" height="auto" data-lightbox="m" rel="lightbox"><img src="Images/m2thumb.jpg"/></a>
+			<a href="Images/m3.jpg" width="5em" height="auto" data-lightbox="m" rel="lightbox"><img src="Images/m3thumb.jpg"/></a>
+			<a href="Images/m4.jpg" width="5em" height="auto" data-lightbox="m" rel="lightbox"><img src="Images/m4thumb.jpg"/></a>
+</div>
+
+<!--Here is how I used Lightbox and attached photos to create a gallery for the user to view in.--> 
